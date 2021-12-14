@@ -2,21 +2,24 @@
 
 <head>
   <title>Midterm Calculator</title>
-  <script src="calculate.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div>
-    <div>
+  <div id="calculatorBody">
+    <div id="mainHeading">
       <h1> Midterm Calculator </h1>
     </div>
-    <div>
+    <div id="inputBody">
       <input type="text" id="q1" placeholder="Enter Q1 grade..."></input><br>
       <input type="text" id="q2" placeholder="Enter Q2 grade..."></input><br>
       <input type="text" id="dG" placeholder="Enter desired grade..."><br></input>
       <button type="text" onclick="calculate()">Calculate</button>
     </div>
-    <div>
+    <div id="gradeNeededBody">
       <h3 id="neededGrade"> Grade Needed On Midterm: </h3>
     </div>
   </div>

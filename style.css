@@ -1,0 +1,28 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#calculatorBody {
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: 5px;
+  margin: auto;
+  width: 22%;
+}
+
+#mainHeading {
+  text-align: center;
+  margin: auto;
+}
+
+#inputBody {
+  text-align: center;
+}
+
+input {
+  margin: 2px;
+}
+
+#gradeNeededBody {
+  text-align: center;
+}
