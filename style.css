@@ -1,18 +1,38 @@
+:root {
+  --start-color: #0575e6;
+  --end-color: #021b79;
+  --p-color: #929da6;
+  --button-background: #0575e6;
+  --input-background: #e4eff8;
+  --radius-50: 50px;
+  --padding-15: 15px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: var(--start-color);
+  background: linear-gradient(to right, var(--start-color), var(--end-color))
+    no-repeat;
 }
 
 #calculatorBody {
-  background-color: lightgrey;
   border-radius: 5px;
   padding: 5px;
   margin: auto;
+  margin-top: 30px;
   width: 22%;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 10px 10px 40px black;
 }
 
 #mainHeading {
   text-align: center;
   margin: auto;
+  width: 100%;
 }
 
 #inputBody {
@@ -21,8 +41,26 @@ body {
 
 input {
   margin: 2px;
+  width: 60%;
+  border: unset;
+  background-color: var(--input-background);
+  padding: var(--padding-15);
+  font-size: 13px;
+  border-radius: var(--radius-50);
 }
 
 #gradeNeededBody {
   text-align: center;
+  width: 100%;
+}
+
+button {
+  background-color: var(--button-background);
+  color: #fff;
+  border: unset;
+  width: 60%;
+  border-radius: var(--radius-50);
+  padding: var(--padding-15);
+  margin-left: 10px;
+  cursor: pointer;
 }
