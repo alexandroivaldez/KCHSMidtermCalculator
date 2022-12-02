@@ -64,3 +64,16 @@ button {
   margin-left: 10px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  #calculatorBody {
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 30px;
+    width: 45%;
+    border-radius: 50px;
+    background: #fff;
+    box-shadow: 10px 10px 40px black;
+  }
+}
