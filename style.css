@@ -65,7 +65,7 @@ button {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (device-width: 390px) {
   #calculatorBody {
     border-radius: 5px;
     padding: 5px;
